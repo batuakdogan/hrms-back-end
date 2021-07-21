@@ -6,20 +6,27 @@ Built With
 <br/>
 ![dena2](https://user-images.githubusercontent.com/77547523/126457395-de7fd7ad-489a-4c89-ab9a-e2bc59257b80.png)
 <font color="red">-Some Images of the Project-</font>
-<br/>
+
 ![1](https://user-images.githubusercontent.com/77547523/126459080-a218d1ac-00f6-4d98-81bc-cf8eb9bd3bee.png)
+
 <br/>
 ![2](https://user-images.githubusercontent.com/77547523/126459087-66f77801-ff81-4c67-a34b-0e1533d5af2c.png)
+
 <br/>
 ![3](https://user-images.githubusercontent.com/77547523/126459089-b049eb05-461e-4437-b511-be8f837b658a.png)
+
 <br/>
 ![4](https://user-images.githubusercontent.com/77547523/126459091-f21b91e9-189b-4351-b6a9-1fe5bbf03189.png)
+
 <br/>
 ![5](https://user-images.githubusercontent.com/77547523/126459093-7495a2f5-cb3f-400e-b197-ec42587c2279.png)
+
 <br/>
 ![6](https://user-images.githubusercontent.com/77547523/126459096-5d2d1708-f506-4996-b718-9638cb61ee48.png)
+
 <br/>
 ![7](https://user-images.githubusercontent.com/77547523/126459098-5b703cf3-a05a-4cfb-8f0a-1275a3c6ba40.png)
+
 <br/>
 ![8](https://user-images.githubusercontent.com/77547523/126459101-f70ab0d2-f59f-4bf2-b9a6-56896e0420af.png)
 

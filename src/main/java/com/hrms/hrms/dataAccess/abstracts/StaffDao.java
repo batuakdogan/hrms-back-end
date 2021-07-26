@@ -4,4 +4,5 @@ import com.alihocaoglu.hrms.entities.concretes.Staff;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StaffDao extends JpaRepository<Staff,Integer> {
+    Staff findById(int id);
 }

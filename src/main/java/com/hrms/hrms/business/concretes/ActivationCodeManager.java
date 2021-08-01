@@ -1,24 +1,20 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.ActivationCodeService;
-import com.alihocaoglu.hrms.busines.abstracts.CvService;
-import com.alihocaoglu.hrms.core.utilities.results.ErrorResult;
-import com.alihocaoglu.hrms.core.utilities.results.Result;
-import com.alihocaoglu.hrms.core.utilities.results.SuccessResult;
-import com.alihocaoglu.hrms.dataAccess.abstracts.ActivationCodeDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.CandidateDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.UserDao;
-import com.alihocaoglu.hrms.entities.concretes.ActivationCode;
-import com.alihocaoglu.hrms.entities.concretes.User;
+import com.hrms.hrms.busines.abstracts.ActivationCodeService;
+import com.hrms.hrms.busines.abstracts.CvService;
+import com.hrms.hrms.core.utilities.results.ErrorResult;
+import com.hrms.hrms.core.utilities.results.Result;
+import com.hrms.hrms.core.utilities.results.SuccessResult;
+import com.hrms.hrms.dataAccess.abstracts.ActivationCodeDao;
+import com.hrms.hrms.dataAccess.abstracts.CandidateDao;
+import com.hrms.hrms.dataAccess.abstracts.UserDao;
+import com.hrms.hrms.entities.concretes.ActivationCode;
+import com.hrms.hrms.entities.concretes.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
-import java.nio.charset.Charset;
 import java.security.SecureRandom;
 import java.time.LocalDate;
-import java.util.Optional;
-import java.util.Random;
 
 @Service
 public class ActivationCodeManager implements ActivationCodeService {

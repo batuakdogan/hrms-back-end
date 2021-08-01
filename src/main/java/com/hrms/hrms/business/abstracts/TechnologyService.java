@@ -1,9 +1,9 @@
-package com.alihocaoglu.hrms.busines.abstracts;
+package com.hrms.hrms.busines.abstracts;
 
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.core.utilities.results.Result;
-import com.alihocaoglu.hrms.entities.concretes.Technology;
-import com.alihocaoglu.hrms.entities.dtos.TechnologyForSerDto;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.core.utilities.results.Result;
+import com.hrms.hrms.entities.concretes.Technology;
+import com.hrms.hrms.entities.dtos.TechnologyForSerDto;
 
 import java.util.List;
 

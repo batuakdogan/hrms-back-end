@@ -1,11 +1,12 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.LanguageService;
-import com.alihocaoglu.hrms.core.utilities.results.*;
-import com.alihocaoglu.hrms.dataAccess.abstracts.CvDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.LanguageDao;
-import com.alihocaoglu.hrms.entities.concretes.Language;
-import com.alihocaoglu.hrms.entities.dtos.LanguageForSetDto;
+import com.hrms.hrms.busines.abstracts.LanguageService;
+import com.hrms.hrms.core.utilities.results.*;
+import com.hrms.hrms.dataAccess.abstracts.CvDao;
+import com.hrms.hrms.dataAccess.abstracts.LanguageDao;
+import com.hrms.hrms.entities.concretes.Language;
+import com.hrms.hrms.entities.dtos.LanguageForSetDto;
+import com.hrms.hrms.core.utilities.results.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

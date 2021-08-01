@@ -1,11 +1,12 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.StaffService;
-import com.alihocaoglu.hrms.busines.abstracts.UserService;
-import com.alihocaoglu.hrms.core.utilities.results.*;
-import com.alihocaoglu.hrms.dataAccess.abstracts.StaffDao;
-import com.alihocaoglu.hrms.entities.concretes.Staff;
-import com.alihocaoglu.hrms.entities.dtos.StaffUpdateDto;
+import com.hrms.hrms.busines.abstracts.StaffService;
+import com.hrms.hrms.busines.abstracts.UserService;
+import com.hrms.hrms.core.utilities.results.*;
+import com.hrms.hrms.dataAccess.abstracts.StaffDao;
+import com.hrms.hrms.entities.concretes.Staff;
+import com.hrms.hrms.entities.dtos.StaffUpdateDto;
+import com.hrms.hrms.core.utilities.results.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -44,14 +45,11 @@ public class StaffManager implements StaffService {
     }
 
     @Override
-<<<<<<< HEAD
-=======
     public DataResult<Staff> findById(int id){
         return  new SuccessDataResult<Staff>(this.staffDao.findById(id),"Bilgiler Getirildi");
     }
 
     @Override
->>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
     public Result update(StaffUpdateDto staffUpdateDto) {
 
         if(!this.staffDao.existsById(staffUpdateDto.getStaffId())){

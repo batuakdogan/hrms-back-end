@@ -1,7 +1,7 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.EmailService;
-import com.alihocaoglu.hrms.entities.concretes.User;
+import com.hrms.hrms.busines.abstracts.EmailService;
+import com.hrms.hrms.entities.concretes.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;

@@ -1,10 +1,10 @@
-package com.alihocaoglu.hrms.api.controllers;
+package com.hrms.hrms.api.controllers;
 
-import com.alihocaoglu.hrms.busines.abstracts.UserService;
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.entities.concretes.User;
-import com.alihocaoglu.hrms.entities.dtos.UserLoginDto;
-import com.alihocaoglu.hrms.entities.dtos.UserLoginReturnDto;
+import com.hrms.hrms.busines.abstracts.UserService;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.entities.concretes.User;
+import com.hrms.hrms.entities.dtos.UserLoginDto;
+import com.hrms.hrms.entities.dtos.UserLoginReturnDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package com.alihocaoglu.hrms.busines.abstracts;
+package com.hrms.hrms.busines.abstracts;
 
-import com.alihocaoglu.hrms.entities.concretes.User;
+import com.hrms.hrms.entities.concretes.User;
 
 public interface EmailService {
     void sendVerifyEmail(User user,String code);

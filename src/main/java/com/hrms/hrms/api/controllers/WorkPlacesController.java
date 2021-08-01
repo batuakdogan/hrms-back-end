@@ -1,8 +1,8 @@
-package com.alihocaoglu.hrms.api.controllers;
+package com.hrms.hrms.api.controllers;
 
-import com.alihocaoglu.hrms.busines.abstracts.WorkPlaceService;
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.entities.concretes.WorkPlace;
+import com.hrms.hrms.busines.abstracts.WorkPlaceService;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.entities.concretes.WorkPlace;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

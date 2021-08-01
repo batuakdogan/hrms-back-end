@@ -1,10 +1,12 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.*;
-import com.alihocaoglu.hrms.core.utilities.results.*;
-import com.alihocaoglu.hrms.dataAccess.abstracts.CandidateDao;
-import com.alihocaoglu.hrms.entities.concretes.Candidate;
-import com.alihocaoglu.hrms.entities.dtos.CandidateForRegisterDto;
+import com.hrms.hrms.busines.abstracts.*;
+import com.hrms.hrms.core.utilities.results.*;
+import com.hrms.hrms.dataAccess.abstracts.CandidateDao;
+import com.hrms.hrms.entities.concretes.Candidate;
+import com.hrms.hrms.entities.dtos.CandidateForRegisterDto;
+import com.hrms.hrms.busines.abstracts.*;
+import com.hrms.hrms.core.utilities.results.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

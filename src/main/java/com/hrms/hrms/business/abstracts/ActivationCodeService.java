@@ -1,8 +1,8 @@
-package com.alihocaoglu.hrms.busines.abstracts;
+package com.hrms.hrms.busines.abstracts;
 
-import com.alihocaoglu.hrms.core.utilities.results.Result;
-import com.alihocaoglu.hrms.entities.concretes.ActivationCode;
-import com.alihocaoglu.hrms.entities.concretes.User;
+import com.hrms.hrms.core.utilities.results.Result;
+import com.hrms.hrms.entities.concretes.ActivationCode;
+import com.hrms.hrms.entities.concretes.User;
 
 public interface ActivationCodeService {
     ActivationCode getByCode(String code);

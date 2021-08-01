@@ -1,7 +1,7 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.NationalValidationService;
-import com.alihocaoglu.hrms.entities.concretes.Candidate;
+import com.hrms.hrms.busines.abstracts.NationalValidationService;
+import com.hrms.hrms.entities.concretes.Candidate;
 import org.springframework.stereotype.Service;
 
 @Service

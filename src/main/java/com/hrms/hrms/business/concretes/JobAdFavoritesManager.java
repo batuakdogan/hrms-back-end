@@ -1,16 +1,15 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.JobAdFavoritesService;
-import com.alihocaoglu.hrms.core.utilities.results.*;
-import com.alihocaoglu.hrms.dataAccess.abstracts.CandidateDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.JobAdDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.JobAdFavoritesDao;
-import com.alihocaoglu.hrms.entities.concretes.JobAd;
-import com.alihocaoglu.hrms.entities.concretes.JobAdFavorites;
+import com.hrms.hrms.busines.abstracts.JobAdFavoritesService;
+import com.hrms.hrms.core.utilities.results.*;
+import com.hrms.hrms.dataAccess.abstracts.CandidateDao;
+import com.hrms.hrms.dataAccess.abstracts.JobAdDao;
+import com.hrms.hrms.dataAccess.abstracts.JobAdFavoritesDao;
+import com.hrms.hrms.entities.concretes.JobAdFavorites;
+import com.hrms.hrms.core.utilities.results.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service

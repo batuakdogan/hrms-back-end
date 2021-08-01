@@ -1,14 +1,15 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.JobAdService;
-import com.alihocaoglu.hrms.core.utilities.results.*;
-import com.alihocaoglu.hrms.dataAccess.abstracts.*;
-import com.alihocaoglu.hrms.entities.concretes.JobAd;
-import com.alihocaoglu.hrms.entities.concretes.JobAdActivation;
-import com.alihocaoglu.hrms.entities.dtos.JobAdDto;
-import com.alihocaoglu.hrms.entities.dtos.JobAdFilter;
+import com.hrms.hrms.busines.abstracts.JobAdService;
+import com.hrms.hrms.core.utilities.results.*;
+import com.hrms.hrms.dataAccess.abstracts.*;
+import com.hrms.hrms.entities.concretes.JobAd;
+import com.hrms.hrms.entities.concretes.JobAdActivation;
+import com.hrms.hrms.entities.dtos.JobAdDto;
+import com.hrms.hrms.entities.dtos.JobAdFilter;
+import com.hrms.hrms.core.utilities.results.*;
+import com.hrms.hrms.dataAccess.abstracts.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -111,13 +112,10 @@ public class JobAdManager implements JobAdService {
         }
 
     }
-<<<<<<< HEAD
-=======
     @Override
     public DataResult<List<JobAd>> getWaitingJobAdvertisements() {
         return new SuccessDataResult<List<JobAd>>(this.jobAdDao.getWaitingJobAdvertisements(),"Başarılı Şekilde Onaylanmış İş İlanlari Listelendi");
     }
->>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
 
     @Override
     public Result setActiveAndConfirm(int jobAdId,int staffId) {

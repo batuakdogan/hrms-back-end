@@ -1,10 +1,10 @@
-package com.alihocaoglu.hrms.busines.abstracts;
+package com.hrms.hrms.busines.abstracts;
 
 
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.core.utilities.results.Result;
-import com.alihocaoglu.hrms.entities.concretes.Experiance;
-import com.alihocaoglu.hrms.entities.dtos.ExperianceForSetDto;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.core.utilities.results.Result;
+import com.hrms.hrms.entities.concretes.Experiance;
+import com.hrms.hrms.entities.dtos.ExperianceForSetDto;
 
 import java.util.List;
 

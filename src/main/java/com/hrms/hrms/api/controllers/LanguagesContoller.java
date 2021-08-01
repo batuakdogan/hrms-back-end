@@ -1,10 +1,10 @@
-package com.alihocaoglu.hrms.api.controllers;
+package com.hrms.hrms.api.controllers;
 
-import com.alihocaoglu.hrms.busines.abstracts.LanguageService;
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.core.utilities.results.Result;
-import com.alihocaoglu.hrms.entities.concretes.Language;
-import com.alihocaoglu.hrms.entities.dtos.LanguageForSetDto;
+import com.hrms.hrms.busines.abstracts.LanguageService;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.core.utilities.results.Result;
+import com.hrms.hrms.entities.concretes.Language;
+import com.hrms.hrms.entities.dtos.LanguageForSetDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

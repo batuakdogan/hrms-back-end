@@ -1,10 +1,10 @@
-package com.alihocaoglu.hrms.busines.abstracts;
+package com.hrms.hrms.busines.abstracts;
 
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.core.utilities.results.Result;
-import com.alihocaoglu.hrms.entities.concretes.JobAd;
-import com.alihocaoglu.hrms.entities.dtos.JobAdDto;
-import com.alihocaoglu.hrms.entities.dtos.JobAdFilter;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.core.utilities.results.Result;
+import com.hrms.hrms.entities.concretes.JobAd;
+import com.hrms.hrms.entities.dtos.JobAdDto;
+import com.hrms.hrms.entities.dtos.JobAdFilter;
 
 import java.util.List;
 
@@ -16,11 +16,8 @@ public interface JobAdService {
     DataResult<JobAd> getByJobAdId(int id);
     DataResult<List<JobAd>> getActiveAds();
     DataResult<List<JobAd>> getActiveAndOrderLastDate();
-<<<<<<< HEAD
-=======
     DataResult<List<JobAd>> getWaitingJobAdvertisements();
 
->>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
     DataResult<List<JobAd>> getActiveAndCompanyId(int id);
     DataResult<List<JobAd>> getByIsActiveAndPageNumberAndFilter(int pageNo, int pageSize, JobAdFilter jobAdFilter);
 }

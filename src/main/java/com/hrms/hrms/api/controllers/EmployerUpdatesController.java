@@ -1,9 +1,9 @@
-package com.alihocaoglu.hrms.api.controllers;
+package com.hrms.hrms.api.controllers;
 
 
-import com.alihocaoglu.hrms.busines.abstracts.EmployerUpdateService;
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.entities.concretes.EmployerUpdate;
+import com.hrms.hrms.busines.abstracts.EmployerUpdateService;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.entities.concretes.EmployerUpdate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

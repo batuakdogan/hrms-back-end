@@ -1,13 +1,13 @@
-package com.alihocaoglu.hrms.api.controllers;
+package com.hrms.hrms.api.controllers;
 
-import com.alihocaoglu.hrms.busines.abstracts.JobAdService;
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.core.utilities.results.ErrorDataResult;
-import com.alihocaoglu.hrms.core.utilities.results.Result;
-import com.alihocaoglu.hrms.core.utilities.results.SuccessDataResult;
-import com.alihocaoglu.hrms.entities.concretes.JobAd;
-import com.alihocaoglu.hrms.entities.dtos.JobAdDto;
-import com.alihocaoglu.hrms.entities.dtos.JobAdFilter;
+import com.hrms.hrms.busines.abstracts.JobAdService;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.core.utilities.results.ErrorDataResult;
+import com.hrms.hrms.core.utilities.results.Result;
+import com.hrms.hrms.core.utilities.results.SuccessDataResult;
+import com.hrms.hrms.entities.concretes.JobAd;
+import com.hrms.hrms.entities.dtos.JobAdDto;
+import com.hrms.hrms.entities.dtos.JobAdFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -75,14 +75,11 @@ public class JobAdController {
         return ResponseEntity.badRequest().body(result);
     }
 
-<<<<<<< HEAD
-=======
     @GetMapping("/getWaitingJobAds")
     public DataResult<List<JobAd>> getWaitingJobAdvertisements() {
         return this.jobAdService.getWaitingJobAdvertisements();
     }
 
->>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
     @PostMapping("/setActive")
     public ResponseEntity<?> setActiveAndConfirm(@RequestParam int jobAdId,@RequestParam int staffId){
         Result result=this.jobAdService.setActiveAndConfirm(jobAdId,staffId);

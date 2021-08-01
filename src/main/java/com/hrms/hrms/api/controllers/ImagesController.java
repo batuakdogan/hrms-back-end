@@ -1,22 +1,13 @@
-package com.alihocaoglu.hrms.api.controllers;
+package com.hrms.hrms.api.controllers;
 
-import com.alihocaoglu.hrms.busines.abstracts.CvService;
-import com.alihocaoglu.hrms.busines.abstracts.ImageService;
-import com.alihocaoglu.hrms.core.services.CloudinaryService;
-import com.alihocaoglu.hrms.core.utilities.results.ErrorResult;
-import com.alihocaoglu.hrms.core.utilities.results.Result;
-import com.alihocaoglu.hrms.core.utilities.results.SuccessResult;
-import com.alihocaoglu.hrms.dataAccess.abstracts.CvDao;
-import com.alihocaoglu.hrms.entities.concretes.Image;
+import com.hrms.hrms.busines.abstracts.ImageService;
+import com.hrms.hrms.core.services.CloudinaryService;
+import com.hrms.hrms.core.utilities.results.Result;
+import com.hrms.hrms.dataAccess.abstracts.CvDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.util.Map;
 
 @CrossOrigin
 @RestController

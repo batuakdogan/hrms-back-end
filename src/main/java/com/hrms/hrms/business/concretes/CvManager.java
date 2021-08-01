@@ -1,13 +1,13 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.CvService;
-import com.alihocaoglu.hrms.core.utilities.results.*;
-import com.alihocaoglu.hrms.dataAccess.abstracts.CandidateDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.CvDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.ImageDao;
-import com.alihocaoglu.hrms.entities.concretes.Cv;
-import com.alihocaoglu.hrms.entities.concretes.Image;
-import com.alihocaoglu.hrms.entities.dtos.CvForSetDto;
+import com.hrms.hrms.busines.abstracts.CvService;
+import com.hrms.hrms.core.utilities.results.*;
+import com.hrms.hrms.dataAccess.abstracts.CandidateDao;
+import com.hrms.hrms.dataAccess.abstracts.CvDao;
+import com.hrms.hrms.dataAccess.abstracts.ImageDao;
+import com.hrms.hrms.entities.concretes.Cv;
+import com.hrms.hrms.entities.concretes.Image;
+import com.hrms.hrms.core.utilities.results.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

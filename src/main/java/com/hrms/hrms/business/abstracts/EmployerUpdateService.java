@@ -1,7 +1,7 @@
-package com.alihocaoglu.hrms.busines.abstracts;
+package com.hrms.hrms.busines.abstracts;
 
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.entities.concretes.EmployerUpdate;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.entities.concretes.EmployerUpdate;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.CityService;
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.core.utilities.results.SuccessDataResult;
-import com.alihocaoglu.hrms.dataAccess.abstracts.CityDao;
-import com.alihocaoglu.hrms.entities.concretes.City;
+import com.hrms.hrms.busines.abstracts.CityService;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.core.utilities.results.SuccessDataResult;
+import com.hrms.hrms.dataAccess.abstracts.CityDao;
+import com.hrms.hrms.entities.concretes.City;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

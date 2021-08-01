@@ -1,8 +1,8 @@
-package com.alihocaoglu.hrms.api.controllers;
+package com.hrms.hrms.api.controllers;
 
 
-import com.alihocaoglu.hrms.busines.abstracts.ActivationByStaffService;
-import com.alihocaoglu.hrms.core.utilities.results.Result;
+import com.hrms.hrms.busines.abstracts.ActivationByStaffService;
+import com.hrms.hrms.core.utilities.results.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

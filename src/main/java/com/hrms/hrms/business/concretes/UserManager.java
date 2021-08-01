@@ -1,16 +1,16 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.UserService;
-import com.alihocaoglu.hrms.core.utilities.results.DataResult;
-import com.alihocaoglu.hrms.core.utilities.results.ErrorDataResult;
-import com.alihocaoglu.hrms.core.utilities.results.SuccessDataResult;
-import com.alihocaoglu.hrms.dataAccess.abstracts.CandidateDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.EmployerDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.StaffDao;
-import com.alihocaoglu.hrms.dataAccess.abstracts.UserDao;
-import com.alihocaoglu.hrms.entities.concretes.User;
-import com.alihocaoglu.hrms.entities.dtos.UserLoginDto;
-import com.alihocaoglu.hrms.entities.dtos.UserLoginReturnDto;
+import com.hrms.hrms.busines.abstracts.UserService;
+import com.hrms.hrms.core.utilities.results.DataResult;
+import com.hrms.hrms.core.utilities.results.ErrorDataResult;
+import com.hrms.hrms.core.utilities.results.SuccessDataResult;
+import com.hrms.hrms.dataAccess.abstracts.CandidateDao;
+import com.hrms.hrms.dataAccess.abstracts.EmployerDao;
+import com.hrms.hrms.dataAccess.abstracts.StaffDao;
+import com.hrms.hrms.dataAccess.abstracts.UserDao;
+import com.hrms.hrms.entities.concretes.User;
+import com.hrms.hrms.entities.dtos.UserLoginDto;
+import com.hrms.hrms.entities.dtos.UserLoginReturnDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

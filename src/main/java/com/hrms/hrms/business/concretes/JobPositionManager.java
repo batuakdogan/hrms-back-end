@@ -1,9 +1,10 @@
-package com.alihocaoglu.hrms.busines.concretes;
+package com.hrms.hrms.busines.concretes;
 
-import com.alihocaoglu.hrms.busines.abstracts.JobPositionService;
-import com.alihocaoglu.hrms.core.utilities.results.*;
-import com.alihocaoglu.hrms.dataAccess.abstracts.JobPositionDao;
-import com.alihocaoglu.hrms.entities.concretes.JobPosition;
+import com.hrms.hrms.busines.abstracts.JobPositionService;
+import com.hrms.hrms.core.utilities.results.*;
+import com.hrms.hrms.dataAccess.abstracts.JobPositionDao;
+import com.hrms.hrms.entities.concretes.JobPosition;
+import com.hrms.hrms.core.utilities.results.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

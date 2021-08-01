@@ -1,6 +1,6 @@
-package com.alihocaoglu.hrms.dataAccess.abstracts;
+package com.hrms.hrms.dataAccess.abstracts;
 
-import com.alihocaoglu.hrms.entities.concretes.JobAdActivation;
+import com.hrms.hrms.entities.concretes.JobAdActivation;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface JobAdActivationDao extends JpaRepository<JobAdActivation,Integer> {

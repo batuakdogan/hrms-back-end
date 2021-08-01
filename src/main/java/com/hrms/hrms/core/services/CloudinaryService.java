@@ -1,4 +1,4 @@
-package com.alihocaoglu.hrms.core.services;
+package com.hrms.hrms.core.services;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;

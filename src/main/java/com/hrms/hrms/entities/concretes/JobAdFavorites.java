@@ -1,11 +1,10 @@
-package com.alihocaoglu.hrms.entities.concretes;
+package com.hrms.hrms.entities.concretes;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Data
 @AllArgsConstructor

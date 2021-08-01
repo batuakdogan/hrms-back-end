@@ -1,4 +1,4 @@
-package com.alihocaoglu.hrms.entities.dtos;
+package com.hrms.hrms.entities.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

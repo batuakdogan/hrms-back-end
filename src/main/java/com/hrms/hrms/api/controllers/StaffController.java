@@ -37,6 +37,14 @@ public class StaffController {
         return ResponseEntity.badRequest().body(result);
     }
 
+<<<<<<< HEAD
+=======
+    @GetMapping("/findById")
+    public DataResult<Staff> findById(@RequestParam int id){
+        return this.staffService.findById(id);
+    }
+
+>>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
     @PutMapping("/update")
     public ResponseEntity<?> update(StaffUpdateDto staffUpdateDto){
         Result result=this.staffService.update(staffUpdateDto);

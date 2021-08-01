@@ -16,6 +16,11 @@ public interface JobAdService {
     DataResult<JobAd> getByJobAdId(int id);
     DataResult<List<JobAd>> getActiveAds();
     DataResult<List<JobAd>> getActiveAndOrderLastDate();
+<<<<<<< HEAD
+=======
+    DataResult<List<JobAd>> getWaitingJobAdvertisements();
+
+>>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
     DataResult<List<JobAd>> getActiveAndCompanyId(int id);
     DataResult<List<JobAd>> getByIsActiveAndPageNumberAndFilter(int pageNo, int pageSize, JobAdFilter jobAdFilter);
 }

@@ -111,6 +111,13 @@ public class JobAdManager implements JobAdService {
         }
 
     }
+<<<<<<< HEAD
+=======
+    @Override
+    public DataResult<List<JobAd>> getWaitingJobAdvertisements() {
+        return new SuccessDataResult<List<JobAd>>(this.jobAdDao.getWaitingJobAdvertisements(),"Başarılı Şekilde Onaylanmış İş İlanlari Listelendi");
+    }
+>>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
 
     @Override
     public Result setActiveAndConfirm(int jobAdId,int staffId) {

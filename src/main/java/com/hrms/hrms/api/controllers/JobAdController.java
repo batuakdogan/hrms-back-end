@@ -75,6 +75,14 @@ public class JobAdController {
         return ResponseEntity.badRequest().body(result);
     }
 
+<<<<<<< HEAD
+=======
+    @GetMapping("/getWaitingJobAds")
+    public DataResult<List<JobAd>> getWaitingJobAdvertisements() {
+        return this.jobAdService.getWaitingJobAdvertisements();
+    }
+
+>>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
     @PostMapping("/setActive")
     public ResponseEntity<?> setActiveAndConfirm(@RequestParam int jobAdId,@RequestParam int staffId){
         Result result=this.jobAdService.setActiveAndConfirm(jobAdId,staffId);

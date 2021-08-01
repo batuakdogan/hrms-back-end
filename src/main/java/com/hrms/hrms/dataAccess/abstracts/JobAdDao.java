@@ -16,6 +16,14 @@ public interface JobAdDao extends JpaRepository<JobAd,Integer> {
     List<JobAd> findByActiveTrueAndEmployer_Id(int id);
 
 
+<<<<<<< HEAD
+=======
+
+    @Query("From JobAd where confirmed = false")
+    List<JobAd> getWaitingJobAdvertisements();
+
+
+>>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
     @Query("Select j from com.alihocaoglu.hrms.entities.concretes.JobAd j where ((:#{#filter.cityId}) IS NULL OR j.city.id IN (:#{#filter.cityId}))"
         +" and ((:#{#filter.jobPositionId}) IS NULL OR j.jobPosition.id IN (:#{#filter.jobPositionId}))"
         +" and ((:#{#filter.workPlaceId}) IS NULL OR j.workPlace.id IN (:#{#filter.workPlaceId}))"

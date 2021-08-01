@@ -44,6 +44,14 @@ public class StaffManager implements StaffService {
     }
 
     @Override
+<<<<<<< HEAD
+=======
+    public DataResult<Staff> findById(int id){
+        return  new SuccessDataResult<Staff>(this.staffDao.findById(id),"Bilgiler Getirildi");
+    }
+
+    @Override
+>>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
     public Result update(StaffUpdateDto staffUpdateDto) {
 
         if(!this.staffDao.existsById(staffUpdateDto.getStaffId())){

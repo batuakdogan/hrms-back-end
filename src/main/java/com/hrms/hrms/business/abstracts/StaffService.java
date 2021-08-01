@@ -11,4 +11,8 @@ public interface StaffService {
     public Result create(Staff staff);
     public DataResult<List<Staff>> getAll();
     public Result update(StaffUpdateDto staffUpdateDto);
+<<<<<<< HEAD
+=======
+    DataResult<Staff> findById(int id);
+>>>>>>> f8b1c0d56f4ec87a76c724066005b9986a748b44
 }

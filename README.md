@@ -25,6 +25,15 @@ Built With
 
 ![8](https://user-images.githubusercontent.com/77547523/126459654-3e58c15a-fed9-46a9-8b60-bd767f52600c.png)
 
+![Ekran görüntüsü 2021-08-02 194117](https://user-images.githubusercontent.com/77547523/127895682-2036c649-5505-4477-ad7e-6afc68dd8089.png)
+
+![Ekran görüntüsü 2021-08-02 194207](https://user-images.githubusercontent.com/77547523/127895691-7001f176-914a-4059-8ba5-1dbc3875a9c4.png)
+
+![Ekran görüntüsü 2021-08-02 194256](https://user-images.githubusercontent.com/77547523/127895701-3e23745a-b693-456d-9030-607aba75e054.png)
+
+
+
+
 
 
 

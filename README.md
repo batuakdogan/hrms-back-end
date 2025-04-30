@@ -5,10 +5,11 @@
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" height="30"/>
 
 
-![Database](https://img.shields.io/badge/-Database-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+###  Database
 
 <br/>
-![dena2](https://user-images.githubusercontent.com/77547523/126457395-de7fd7ad-489a-4c89-ab9a-e2bc59257b80.png)
+
+![database](https://github.com/user-attachments/assets/94dace52-0bd8-4da2-9288-a6fb4a1e5ed4)
 
 
 ##  Some Images of the Project
